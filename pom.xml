@@ -13,7 +13,7 @@
     </properties>
 
     <modules>
-        <module>./alpha</module>
+        <module>./alpha/base</module>
     </modules>
 
     <dependencyManagement>

@@ -9,12 +9,12 @@ Use this project as a Bill-Of-Material (BOM) ...
     <dependencies>
         <dependency>
             <groupId>com.ibm.otms</groupId>
-               <artifactId>otms-root</artifactId>
-                <version>1.0-SNAPSHOT</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
+            <artifactId>otms-root</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
 </dependencyManagement>
 ```
 ... and than import all required dependencies but omit the version tag
@@ -25,6 +25,6 @@ Use this project as a Bill-Of-Material (BOM) ...
 </dependency>
 <dependency>
     <groupId>commons-logging</groupId>
-	<artifactId>commons-logging</artifactId>
+    <artifactId>commons-logging</artifactId>
 </dependency>
 ```
